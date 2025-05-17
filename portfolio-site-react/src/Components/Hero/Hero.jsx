@@ -1,0 +1,30 @@
+import React from "react";
+import "./Hero.css";
+import profile_img from "../../assets/profile_img.svg";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+
+const Hero = () => {
+  return (
+    <div id="home" className="hero">
+      <h1>
+        <span>I'm Juan Vallejo,</span> frontend developer based in USA.
+      </h1>
+      <p>
+        I am an aspiring Frontend Developer with a passion for creating
+        innovative and user-friendly websites. This is my first website, created
+        from scratch using React. Feel free to explore my projects and contact
+        me to learn more about my work or collaborate.
+      </p>
+      <div className="hero-action">
+        <div className="hero-connect">
+          <AnchorLink className="anchor-link" offset={50} href="#contact">
+            Connect with me
+          </AnchorLink>
+        </div>
+        <div className="hero-resume">My resume</div>
+      </div>
+    </div>
+  );
+};
+
+export default Hero;

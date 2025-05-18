@@ -3,7 +3,7 @@ import "./Contact.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import mail_icon from "../../assets/mail_icon.svg";
 import location_icon from "../../assets/location_icon.svg";
-import call_icon from "../../assets/call_icon.svg";
+import linkedin from "../../assets/linkedinwhite.svg";
 
 const Contact = () => {
   const onSubmit = async (event) => {
@@ -48,13 +48,10 @@ const Contact = () => {
               <img src={mail_icon} alt="" />
               <p>Vallejo.JuanGabriel@gmail.com</p>
             </div>
+
             <div className="contact-detail">
-              <img src={call_icon} alt="" />
-              <p>0000000000</p>
-            </div>
-            <div className="contact-detail">
-              <img src={location_icon} alt="" />
-              <p>New York, NY</p>
+              <img id="linkedin" src={linkedin} alt="" />
+              <p>linkedin.com/in/juan-gabriel-vallejo/</p>
             </div>
           </div>
         </div>

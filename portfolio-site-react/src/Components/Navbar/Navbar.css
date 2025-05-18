@@ -4,6 +4,12 @@
     justify-content: space-between;
     margin: 20px 170px;
 }
+
+.logo {
+    max-height: 300px;
+    max-width: 300px;
+    min-width: 120px;
+}
 .nav-menu {
     display: flex;
     align-items: center;
@@ -47,6 +53,7 @@
 @media(max-width: 768px) {
     .navbar {
         margin: 20px 50px;
+        position: absolute;
     }
     .nav-connect {
         display: none;
@@ -81,5 +88,8 @@
         padding-left: 100px;
         flex-direction: row;
         gap: 20px;
+    }
+    .logo {
+        max-width: 200px;
     }
 }

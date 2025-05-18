@@ -103,6 +103,9 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
+#linkedin {
+    max-width: 35px;
+}
 
 @media(max-width:768px){
     .contact{

@@ -7,12 +7,12 @@ const Hero = () => {
   return (
     <div id="home" className="hero">
       <h1>
-        <span>I'm Juan Vallejo,</span> frontend developer based in USA.
+        <span>I'm Juan Vallejo,</span> a Front-end developer based in New York, USA.
       </h1>
       <p>
-        I am an aspiring Frontend Developer with a passion for creating
+        I am a Front-end Developer with a passion for creating
         innovative and user-friendly websites. This is my first website, created
-        from scratch using React. Feel free to explore my projects and contact
+        from scratch and improved upon as I've learned HTML, CSS, Javascript and React. Feel free to explore my projects and contact
         me to learn more about my work or collaborate.
       </p>
       <div className="hero-action">

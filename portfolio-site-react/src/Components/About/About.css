@@ -29,6 +29,14 @@
     flex-direction: column;
     gap: 80px;
 }
+
+.about-left img {
+    max-width: 500px;
+    max-height: 800px;
+    border-radius: 100px;
+}
+
+
 .about-para {
     display: flex;
     flex-direction: column;

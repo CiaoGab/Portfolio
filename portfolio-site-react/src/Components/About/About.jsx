@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import profile_img from "../../assets/about_profile.svg";
+import profile_img from "../../assets/profile_pic.jpg";
 
 const About = () => {
   return (
@@ -17,15 +17,17 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I am an experienced Frontend Developer with over a decade of
-              professional expertise in the field. Throughout my career, I have
-              had the privilege of collaborating with prestigious organizations,
-              contributing to their success and growth.
+              I am a Front-end Developer with a passion to learn. I am
+              self-taught and have become proficient in HTML, CSS, Javascript
+              and React! With over 8+ years of experience in Operations
+              management and customer success, I have built exceptional skills
+              in project management, crossfunctional teamwork and collaboration
+              and building meaningful relationships with customers.
             </p>
             <p>
-              My passion for frontend development is not only reflected in my
-              extensive experience but also in the enthusiasm and dedication I
-              bring to each project.
+              Front-end development started as an occasional hobby and quickly turned into something I devote most of my free time to as I enjoy it so much! My passion for frontend development is not only reflected in my
+              work but also in the enthusiasm and dedication I bring to each
+              project. 
             </p>
           </div>
           <div className="about-skills">
@@ -42,13 +44,13 @@ const About = () => {
               <hr style={{ width: "60%" }} />
             </div>
             <div className="about-skill">
-              <p>Next JS</p>
+              <p>SQL</p>
               <hr style={{ width: "50%" }} />
             </div>
           </div>
         </div>
       </div>
-      <div className="about-achievements">
+      {/* <div className="about-achievements">
         <div className="about-achievement">
           <h1>10+</h1>
           <p>YEARS OF EXPERIENCE</p>
@@ -62,8 +64,8 @@ const About = () => {
         <div className="about-achievement">
           <h1>15+</h1>
           <p>HAPPY CLIENTS</p>
-        </div>
-      </div>
+        </div> 
+      </div>*/}
     </div>
   );
 };

@@ -1,10 +1,40 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
-    height: 100vh;
+    min-height: 100vh;
     background: #030200;
     color: white;
     font-family: outfit;
+}
+
+/* Common section spacing */
+.section {
+    padding: 120px 170px;
+}
+
+@media (max-width: 1440px) {
+    .section {
+        padding: 100px 120px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .section {
+        padding: 80px 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 60px 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        padding: 40px 20px;
+    }
 }

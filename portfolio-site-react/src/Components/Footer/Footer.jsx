@@ -5,7 +5,7 @@ import user_icon from "../../assets/user_icon.svg";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer section">
       
       <hr />
       <div className="footer-bottom">

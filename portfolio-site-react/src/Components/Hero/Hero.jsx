@@ -2,10 +2,11 @@ import React from "react";
 import "./Hero.css";
 import profile_img from "../../assets/profile_img.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import resume from "../../assets/Juan Vallejo - Customer Experience.pdf";
 
 const Hero = () => {
   return (
-    <div id="home" className="hero">
+    <div id="home" className="hero section">
       <h1>
         <span>I'm Juan Vallejo,</span> a Front-end developer based in New York, USA.
       </h1>
@@ -21,7 +22,7 @@ const Hero = () => {
             Connect with me
           </AnchorLink>
         </div>
-        <div className="hero-resume">My resume</div>
+        <a href={resume} download className="hero-resume">My resume</a>
       </div>
     </div>
   );

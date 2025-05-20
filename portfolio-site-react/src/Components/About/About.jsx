@@ -5,7 +5,7 @@ import profile_img from "../../assets/profile_pic.jpg";
 
 const About = () => {
   return (
-    <div id="about" className="about">
+    <div id="about" className="about section">
       <div className="about-title">
         <h1>About me</h1>
         <img src={theme_pattern} alt="" />
@@ -17,17 +17,13 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I am a Front-end Developer with a passion to learn. I am
-              self-taught and have become proficient in HTML, CSS, Javascript
-              and React! With over 8+ years of experience in Operations
-              management and customer success, I have built exceptional skills
-              in project management, crossfunctional teamwork and collaboration
-              and building meaningful relationships with customers.
+              I'm a self-taught Front-End Developer with a strong passion for learning and building user-focused experiences. I've become proficient in HTML, CSS, JavaScript, and React through dedicated study and hands-on practice.
             </p>
             <p>
-              Front-end development started as an occasional hobby and quickly turned into something I devote most of my free time to as I enjoy it so much! My passion for frontend development is not only reflected in my
-              work but also in the enthusiasm and dedication I bring to each
-              project. 
+              I have over 8 years of experience in operations management and customer success, where I developed strong skills in project management, cross-functional collaboration, and relationship-building. These experiences have shaped my approach to development—ensuring I create solutions that are not only functional but also aligned with user and business needs.
+            </p>
+            <p>
+              What began as a hobby quickly grew into a true passion. Today, front-end development is where I channel my curiosity, creativity, and drive. I bring enthusiasm and commitment to every project, always striving to learn more and improve with each iteration.
             </p>
           </div>
           <div className="about-skills">
